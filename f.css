@@ -1,3 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Moon+Dance&family=Prosto+One&family=Righteous&display=swap');
+
+header{
+    display: inline;
+}
+.navbar{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    
+}
+.navbar ul{
+    overflow: auto;
+    height: 3rem;
+}
+.navbar li.left{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Prosto One', cursive;
+    
+}
+.navbar li a:hover{
+    background-color: rgb(204, 96, 57);
+    color: black;
+}
+.navbar li.right{
+    float:right;
+    list-style: none; 
+    margin: 13px 20px;
+}
+
+
 h2{
     -webkit-text-size-adjust: 100%;
     pointer-events: auto;
@@ -38,7 +77,7 @@ h2{
     
 }
 
-p{
+.container p{
     padding-top: 0px;
     padding-left: 38vh;
     padding-right: 40vh;
@@ -48,7 +87,7 @@ p{
 }
 
 hr{
-    box align: center;
+    box-align: center;
     size: 1px;
     width: 148vh;
 
@@ -62,3 +101,15 @@ button{
     font-size: 4vh;
 }
 
+.about{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-basis: 40%;
+    align-items: center;
+}
+.about div.box{
+    color: white;
+    margin: 3rem;
+    align-items: centre;
+}
