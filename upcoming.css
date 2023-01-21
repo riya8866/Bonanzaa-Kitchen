@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Moon+Dance&family=Prosto+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lobster&family=Special+Elite&display=swap');
+header{
+    display: inline;
+}
+.navbar{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    
+}
+.navbar ul{
+    overflow: auto;
+    height: 3rem;
+}
+.navbar li.left{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Prosto One', cursive;
+    
+}
+.navbar li a:hover{
+    background-color: rgb(204, 96, 57);
+    color: black;
+}
+.navbar li.right{
+    float:right;
+    list-style: none; 
+    margin: 13px 20px;
+}
+
+header::before{
+    background: url('https://media.timeout.com/images/105347841/image.jpg') no-repeat center center/cover;
+    content: "";    
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    height: 20rem;
+}
+
+
+
+
+h1{
+    font-size: 4rem;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    margin: 6rem;
+    color: white;
+    text-shadow: 4px 4px 2px black;
+    font-family: 'Special Elite', cursive;
+}
+/* h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: cursive;
+} */
+.event-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 8rem;
+
+}
+.event-item {
+width: 500px;
+height: 500px;
+text-align: center;
+margin-bottom: 20px;
+border: 2px black;
+border-style:double;
+padding: 13px;
+border-radius: 10px;
+}  
+img {
+width: 360px;
+height: 360px;
+box-shadow: 5px 5px 4px black;
+}
+
+
+.about{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-basis: 40%;
+    align-items: center;
+}
+.about div.box{
+    color: white;
+    margin: 3rem;
+    align-items: centre;
+}
