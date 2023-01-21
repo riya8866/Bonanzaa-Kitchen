@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <title>ContactUs</title>
+</head>
+<body bgcolor="white" >
+
+<h2><center>CONTACT US FOR ANY QUERIES</center></h2>
+<br><br>
+<div class="container">
+<form >
+    <label>Name:*</label>
+    <input type="text" name="name" placeholder="Enter Your Name" required>
+    <br>
+    <label>Email:*</label>
+    <input type="email" name="email" placeholder="Enter Your Email Id" required>
+    <br>
+    <label>Mobile No:*</label>
+    <input type="text" name="mobile" placeholder="Enter Your Mobile No." required>
+    <br>
+    <label>Subject:</label>
+    <input type="sub" name="sub" placeholder="Enter Your Query Subject" required>
+    <br>
+
+    <label>Query:</label>
+    
+  <br>
+  <textarea name="comments" placeholder="Enter Your Query" ></textarea>
+  <br>
+  <button class="button" onclick="sendEmail()">Submit</button>
+</form>
+</div>
+<script scr="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    function sendEmail(){
+           let name = document.getElementByName("name").value;
+           let email = document.getElementByType("email").value;
+           let contact = document.getElementByName("mobile").value;
+           let subject = document.getElementByType("sub").value;
+           let message = document.getElementByname("comments").value;
+            
+           let body = "Name:" + name + "<br/> email:" + email + "<br/> Contact Number:" + contact + "<br/> message" + message;
+        Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "bornconfused2002@gmail.com",
+            Password : "7F77C554DD5371DB3A0CC82E69A3AA82EDC6",
+            To : 'bonanzaakitchen@gmail.com',
+            From : "bornconfused2002@gmail.com",
+            Subject : "New Contact Form Enquery",
+            Body : body,
+            
+        }).then(
+          message => alert(message)
+        );
+    }
+</script>
+</body>
+</html>
