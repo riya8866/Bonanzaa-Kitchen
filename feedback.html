@@ -1,113 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./contact.css">
-    <title>ContactUs</title>
+<html>
+<body bgcolor = white>
+</body>
+<header>
     <link rel="stylesheet" href="feedback.css">
-    <style>
-        form {
-            width: 500px;
-            margin: 0 auto;
-            padding: 20px;
-          }
-          
-          input[type="text"],
-          input[type="email"],
-          input[type="sub"],
-          textarea {
-            width: 100%;
-            padding: 12px;
-            margin: 10px 0;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-          }
-          
-          input[type="submit"] {
-            background-color: #4CAF50;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            margin-top: 10px;
-          }
-          
-          input[type="submit"]:hover {
-            background-color: #45a049;
-          }
-            </style>
-</head>
-<body bgcolor="white" >
+</header>
 
 
-    <header>
-        <nav class="navbar">
-            <ul>
-                <li class="left"><a href="main.html">HOME</a></li>
-                <li class="left"><a href="beverages.html">MENU</a></li>
-                <li class="left"><a href="upcoming.html">EVENTS</a></li>
-                <li class="left"><a href="FAQ.html">FAQs</a></li>
-                <li class="right"><a href="contact us.html">Contact us</a></li>
-                <li class="right"><a href="feedback.html">Feedback</a></li>
-            </ul>
-        </nav>
-    </header>
-    <br>
 
-<h1><center>CONTACT US FOR ANY QUERIES</center></h1>
+<header>
+    <nav class="navbar">
+        <ul>
+            <li class="left"><a href="main.html">HOME</a></li>
+            <li class="left"><a href="beverages.html">MENU</a></li>
+            <li class="left"><a href="upcoming.html">EVENTS</a></li>
+            <li class="left"><a href="FAQ.html">FAQs</a></li>
+            <li class="right"><a href="contact us.html">Contact us</a></li>
+            <li class="right"><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+</header>
 
-<div class="container">
-<form >
-    <label>Name:*</label>
-    <input type="text" name="name" placeholder="Enter Your Name" required>
-    <br>
-    <label>Email:*</label>
-    <input type="email" name="email" placeholder="Enter Your Email Id" required>
-    <br>
-    <label>Mobile No:*</label>
-    <input type="text" name="mobile" placeholder="Enter Your Mobile No." required>
-    <br>
-    <label>Subject:</label>
-    <input type="sub" name="sub" placeholder="Enter Your Query Subject" required>
-    <br>
+<h1><center>FEEDBACK FORM</center></h1>
+<h2><center><i>Our restaurant pays excellent care and consideration towards providing our clients with the best food and table service.<br> We would appreciate your time in completing our customer satisfaction survey.</center></i></h2>
 
-    <label>Query:</label>
-    
+<form>
+  <label>Name:*</label>
+  <input type="text" name="name" required>
   <br>
-  <textarea name="comments" placeholder="Enter Your Query" ></textarea>
+  <label>Email:*</label>
+  <input type="email" name="email" required>
   <br>
-  <button class="button" onclick="sendEmail()">Submit</button>
+  <label for="no">Phone No:  </label><br>
+  <input type="no" id="no" name="no"<br><br><br>
+  <label for="date">Date of Visit:</label><br>
+  <input type="date" id="dov" name="dov"><br>
+
   <br><br>
+  <label>Food Quality</label>:</label>
+  <input type="radio" name="experience" value="excellent" required>Excellent
+  <input type="radio" name="experience" value="good">Good
+  <input type="radio" name="experience" value="average">Average
+  <input type="radio" name="experience" value="poor">Dissatisfied
+  <br><br>
+  <label>Freshness of food</label>:</label>
+  <input type="radio" name="experience" value="excellent" required>Excellent
+  <input type="radio" name="experience" value="good">Good
+  <input type="radio" name="experience" value="average">Average
+  <input type="radio" name="experience" value="poor">Dissatisfied
+  <br><br>
+  <label>Service Quality:</label>
+  <input type="radio" name="experience" value="excellent" required>Excellent
+  <input type="radio" name="experience" value="good">Good
+  <input type="radio" name="experience" value="average">Average
+  <input type="radio" name="experience" value="poor">Dissatisfied
+  <br><br>
+  <label>Speed of Service</label>:</label>
+  <input type="radio" name="experience" value="excellent" required>Excellent
+  <input type="radio" name="experience" value="good">Good
+  <input type="radio" name="experience" value="average">Average
+  <input type="radio" name="experience" value="poor">Dissatisfied
+  <br><br>
+  <label>Interior hygiene  </label>:</label>
+  <input type="radio" name="experience" value="excellent" required>Excellent
+  <input type="radio" name="experience" value="good">Good
+  <input type="radio" name="experience" value="average">Average
+  <input type="radio" name="experience" value="poor">Dissatisfied
+  <br><br>
+  <label>Overall Experience</label>:</label>
+  <input type="radio" name="experience" value="excellent" required>Excellent
+  <input type="radio" name="experience" value="good">Good
+  <input type="radio" name="experience" value="average">Average
+  <input type="radio" name="experience" value="poor">Dissatisfied
+  <br><br><br>
+
+  <label>Additional Comments or Suggestions:</label>
+  <br>
+  <textarea name="comments"></textarea>
+  <br>
+  <input type="submit" value="Submit">
 </form>
-</div>
-<script scr="https://smtpjs.com/v3/smtp.js"></script>
-<script>
-    function sendEmail(){
-           let name = document.getElementByName("name").value;
-           let email = document.getElementByType("email").value;
-           let contact = document.getElementByName("mobile").value;
-           let subject = document.getElementByType("sub").value;
-           let message = document.getElementByname("comments").value;
-            
-           let body = "Name:" + name + "<br/> email:" + email + "<br/> Contact Number:" + contact + "<br/> message" + message;
-        Email.send({
-            Host : "smtp.elasticemail.com",
-            Username : "bornconfused2002@gmail.com",
-            Password : "7F77C554DD5371DB3A0CC82E69A3AA82EDC6",
-            To : 'bonanzaakitchen@gmail.com',
-            From : "bornconfused2002@gmail.com",
-            Subject : "New Contact Form Enquery",
-            Body : body,
-            
-        }).then(
-          message => alert(message)
-        );
-    }
-</script>
+
+
+<style>
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="no"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+    </style>
 
 <footer>
     <div class="about">
@@ -128,5 +139,3 @@
         </div>
     </div>
 </footer>
-</body>
-</html>
