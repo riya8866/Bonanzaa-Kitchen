@@ -1,30 +1,41 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Moon+Dance&family=Prosto+One&family=Righteous&display=swap');
+
+body{
+    background-color: rgb(48, 47, 47);
+}
+header{
+    display: inline;
+}
 .navbar{
     background-color: black;
-    display: inline-block;
     position: sticky;
     top: 0px;
     width: 100%;
+    
 }
 .navbar ul{
     overflow: auto;
+    height: 3rem;
 }
 .navbar li.left{
     float:left;
     list-style: none; 
     margin: 13px 20px;
-    
 }
 .navbar li a{
     padding: 3px 3px;
     text-decoration: none;
     color: white;
+    font-family: 'Prosto One', cursive;
+    
 }
 .navbar li a:hover{
-    background-color: rgb(194, 193, 193);
+    background-color: rgb(204, 96, 57);
     color: black;
 }
 .navbar li.right{
-    /* border: 1px solid white; */
     float:right;
     list-style: none; 
     margin: 13px 20px;
@@ -46,10 +57,50 @@ header::before{
     text-align: center;   
 }
 #top1{
-    font-size: 7rem;
+    font-size: 5rem;
     text-shadow: -3px -2px 2px black;
+    font-family: 'Righteous', cursive;
 }
 #top2{
-    font-size: 3rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
     text-shadow: -3px -2px 2px black;
+    font-family: 'Explora', cursive;
+}
+
+/* #img{
+    background-color: rgb(40, 40, 40);
+    margin: 0px;
+} */
+.img{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.img div.box{
+    box-shadow: -3px -2px 2px black;
+    margin: 2rem;
+    width: 30rem;
+    height: 22rem;
+
+}
+.img img{
+    width: 30rem;
+    height: 22rem;
+}
+
+
+
+.about{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-basis: 40%;
+    align-items: center;
+}
+.about div.box{
+    color: white;
+    margin: 3rem;
+    align-items: centre;
 }
