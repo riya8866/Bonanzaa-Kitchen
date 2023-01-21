@@ -54,17 +54,12 @@ header::before{
 
 h1{
     font-size: 4rem;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     margin: 6rem;
     color: white;
     text-shadow: 4px 4px 2px black;
     font-family: 'Special Elite', cursive;
 }
-/* h2{
-    font-size: 2rem;
-    text-align: center;
-    font-family: cursive;
-} */
+
 .event-container {
 display: flex;
 flex-direction: column;
