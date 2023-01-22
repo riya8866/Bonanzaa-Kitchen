@@ -36,7 +36,7 @@
     <br >  
     
     
-         🍨🍨 [LINK FOR DEMO](https://bonanzaakitchen.iamriyaa.repl.co/beverages.html)🍨🍨
+   🍨🍨 [LINK FOR DEMO](https://bonanzaakitchen.iamriyaa.repl.co/beverages.html)🍨🍨
  
    🍒🍒 HOME PAGE: 
 <p align="center">
