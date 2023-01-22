@@ -3,13 +3,13 @@
                                                
    ❕❕[LINK FOR DEMO](https://bonanzaakitchen.iamriyaa.repl.co/) ❕❕
   
-##🧁 Introduction   <br >
+##Introduction   <br >
    A restaurant website is a business website that aims to provide information on their menu, service, location, and other services. It also provides directions to      the restaurant.                         
 🥕The goal of a restaurant website is to help consumers find an establishment that best fits their needs and provides services accordingly.       <br >         
 
  <br >   
  
-**🧁  Problem it solves   <br >                                                                                                                                            You’re looking for a restaurant to go with your friends. Like every other technology-friendly person, you turn to the Internet because you know that every random      business these days has a strong online presence. But to your dismay, you discover that you can’t find your favourite restaurant’s website because they’ve missed      out on the opportunity to build their web existence. Not the best thing to hear!
+🧁  Problem it solves   <br >                                                                                                                                              You’re looking for a restaurant to go with your friends. Like every other technology-friendly person, you turn to the Internet because you know that every random      business these days has a strong online presence. But to your dismay, you discover that you can’t find your favourite restaurant’s website because they’ve missed      out on the opportunity to build their web existence. Not the best thing to hear!
      The internet can be quite disorganized and this can be annoying in both reading and navigating. This website is focused to solve this issue.   <br >  
 
 <br >
