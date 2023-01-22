@@ -34,6 +34,9 @@
    🥕 To make responsive for all devices.            <br >
    🥕 Hosting                      <br >
     <br >  
+    
+    
+         🍨🍨 [LINK FOR DEMO](https://bonanzaakitchen.iamriyaa.repl.co/beverages.html)🍨🍨
  
    🍒🍒 HOME PAGE: 
 <p align="center">
