@@ -20,19 +20,19 @@
                                                                                                                                                                        
                                                                                                                                                                        
 🧁Dataset information  <br />                                                                                                                                     
-   🥕 SECTIONS:-
-       Menu
-       Events
-       FAQs
-       contact us
-       Feedback    
+   🥕 SECTIONS:-   <br />
+       Menu          <br />
+       Events         <br />
+       FAQs      <br />
+       contact us      <br />
+       Feedback           <br />
  <br /> 
  
- 🧁Challenges we ran into
-    🥕 Designing a user-friendly website without solid data.
-    🥕 Balancing aesthetics with functionality & accessibility.
-    🥕 To make responsive for all devices.
-    🥕 Hosting
+ 🧁Challenges we ran into      <br />
+    🥕 Designing a user-friendly website without solid data.      <br />
+    🥕 Balancing aesthetics with functionality & accessibility.        <br />
+    🥕 To make responsive for all devices.            <br />
+    🥕 Hosting                      <br />
  
 <!--   ✅ HOME PAGE: 
  <p align="center">
