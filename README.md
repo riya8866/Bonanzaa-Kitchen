@@ -1,8 +1,10 @@
 #                                           🍽BONANZAA KITCHEN_______Restaurant Website🍽 
-                                               Always there for your cravings.....                
+                                               Always there for your cravings.....        
+                                               
+   ❕❕[LINK FOR DEMO](https://bonanzaakitchen.iamriyaa.repl.co/) ❕❕
   
 🧁 Introduction    <br >
-   A restaurant website is a business website that aims to provide information on their menu, service, location, and other services. It also provides directions to        the restaurant.                         
+   A restaurant website is a business website that aims to provide information on their menu, service, location, and other services. It also provides directions to      the restaurant.                         
 🥕The goal of a restaurant website is to help consumers find an establishment that best fits their needs and provides services accordingly.       <br >         
 
  <br >   
@@ -35,8 +37,7 @@
    🥕 Hosting                      <br >
     <br >  
     
-    
-   🍨🍨 [LINK FOR DEMO](https://bonanzaakitchen.iamriyaa.repl.co/beverages.html)🍨🍨
+   
  
    🍒🍒 HOME PAGE: 
 <p align="center">
