@@ -1,5 +1,5 @@
-#                                      <pre>      🍽BONANZAA KITCHEN____________Restaurant Website🍽   </pre>
-                                                          Always there for your cravings.....                
+#                                          🍽BONANZAA KITCHEN____________Restaurant Website🍽 
+                                                     Always there for your cravings.....                
   
 🧁 Introduction    <br >
    A restaurant website is a business website that aims to provide information on their menu, service, location, and other services. It also provides directions to        the restaurant.                         
